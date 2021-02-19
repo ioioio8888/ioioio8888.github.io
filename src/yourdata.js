@@ -134,9 +134,9 @@ export default {
   aboutParaOne:
     "Graduated from CUHK with the Major in Information Engineering. Worked at IBM China/Hong Kong Limited as a IT specialist and participated in various kind of projects. Currently served as a Full-stack Engineer at Next Chymia Consulting HK Limited.",
   aboutParaTwo:
-    "I made some personal projects during covid-19. I think it is happy to make meaningful contributions to the society. For example, 2boxesthx is a website which allow peoples to trade/exchange materials like masks. Howlongistheline.org is another webpage which helps people to determine the length of the line in different shop during the shutdown.",
+    "I made some personal projects during covid-19 quarantine. It is happy to make meaningful contributions to the society. For example, 2boxesthx is a website which allow peoples to trade/exchange materials like masks. Howlongistheline.org is another webpage which helps people to determine the length of the line in different shop during the shutdown.",
   aboutParaThree:
-    "I am passionate in blockchain and gaming industry.",
+    "I am passionate in blockchain and gaming industry. It is quite fun to see these industries grows bigger and bigger.",
   aboutImage:
     // "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
     aboutme,
