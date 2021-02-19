@@ -1,10 +1,10 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+// import htmlIcon from "./images/html.svg"
+// import cssIcon from "./images/css.svg"
+// import reactIcon from "./images/react.svg"
+// import jsIcon from "./images/javascript.svg"
+// import designIcon from "./images/design.svg"
+// import codeIcon from "./images/code.svg"
 
 // Social Icon
 // import githubIcon from "./images/github.svg"

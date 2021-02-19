@@ -5,7 +5,6 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
-import { Typography } from "@material-ui/core";
 
 const Timeline = () => {
     return (
