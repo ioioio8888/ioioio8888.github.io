@@ -12,7 +12,7 @@ const Timeline = () => {
             <div className="container">
                 <div className="work-wrapper">
                     <Fade bottom>
-                        <h1>Work Experience</h1>
+                        <h1>Experience</h1>
                     </Fade>
                     <VerticalTimeline>
                     <VerticalTimelineElement
