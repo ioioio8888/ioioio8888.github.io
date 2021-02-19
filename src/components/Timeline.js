@@ -54,7 +54,7 @@ const Timeline = () => {
                         icon={<WorkIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Infrastructure Specialist</h3>
-                        <h4 className="vertical-timeline-element-subtitle">IBM</h4>
+                        <h4 className="vertical-timeline-element-subtitle">IBM China/Hong Kong Limited </h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
                         Set up and manage unix system(AIX, RHEL) in enterprise scale projects.
