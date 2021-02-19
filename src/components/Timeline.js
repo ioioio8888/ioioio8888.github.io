@@ -68,9 +68,9 @@ const Timeline = () => {
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<SchoolIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">Information Engineering</h3>
-                        <h5 className="vertical-timeline-element-subtitle">Bachelor's degree</h5>
                         <h3 className="vertical-timeline-element-subtitle">The Chinese University of Hong Kong</h3>
+                        <p className="vertical-timeline-element-title">Information Engineering - Bachelor's degree</p>
+                        <p className="vertical-timeline-element-subtitle">Computer Science - Minor</p>
                     </VerticalTimelineElement>
                     </VerticalTimeline>
                 </div>
