@@ -12,8 +12,8 @@ const Skills = () => {
           <div className="skills-grid">
             {data.skills.map(skill => (
                 // <img src={skill.img} style={{maxHeight: 200, maxWidth: 200}} alt="css"></img>
-                <div>
-                <skill.img style={{height:100, width:100}}/>
+                <div className="skill">
+                <skill.img className="skill-icon"/>
                 <p style={{textAlign: "center"}}>{skill.description}</p>
                 </div>
             ))}
