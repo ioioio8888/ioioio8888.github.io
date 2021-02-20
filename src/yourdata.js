@@ -5,6 +5,19 @@
 // import jsIcon from "./images/javascript.svg"
 // import designIcon from "./images/design.svg"
 // import codeIcon from "./images/code.svg"
+import { DiUnitySmall } from "@react-icons/all-files/di/DiUnitySmall";
+import { DiMeteorfull } from "@react-icons/all-files/di/DiMeteorfull";
+import { DiMongodb } from "@react-icons/all-files/di/DiMongodb";
+import { DiCss3 } from "@react-icons/all-files/di/DiCss3";
+import { DiHtml5 } from "@react-icons/all-files/di/DiHtml5";
+import { DiReact } from "@react-icons/all-files/di/DiReact";
+import { SiCsharp } from "@react-icons/all-files/si/SiCsharp";
+import { DiJavascript1 } from "@react-icons/all-files/di/DiJavascript1";
+import { DiPhotoshop } from "@react-icons/all-files/di/DiPhotoshop";
+import { DiWordpress } from "@react-icons/all-files/di/DiWordpress";
+
+import { DiNodejs } from "@react-icons/all-files/di/DiNodejs";
+
 
 // Social Icon
 // import githubIcon from "./images/github.svg"
@@ -18,14 +31,14 @@ import narau from "./images/narau.jpg"
 import assassin from "./images/assassin.jpg"
 import BomBomBaRocketGo from "./images/bombomba.jpg"
 
-import CSharp from "./images/CSharp.png" 
-import javascript from "./images/javascript.png"
-import mongodb from "./images/mongodb.png"
-import meteor from "./images/meteor.png"
-import react from "./images/react.png"
-import unity from "./images/unity.jpg"
-import html from "./images/html.png"
-import css from "./images/css.png"
+// import CSharp from "./images/CSharp.png" 
+// import javascript from "./images/javascript.png"
+// import mongodb from "./images/mongodb.png"
+// import meteor from "./images/meteor.png"
+// import react from "./images/react.png"
+// import unity from "./images/unity.jpg"
+// import html from "./images/html.png"
+// import css from "./images/css.png"
 
 import aboutme from "./images/aboutme_3.jpg"
 
@@ -149,45 +162,59 @@ export default {
   skills: [
     {
       id: 1,
-      img: javascript,
-      para: ""
+      img: DiJavascript1,
+      description: "javascript"
     },
     {
       id: 2,
-      img: CSharp,
-      para: ""
+      img: SiCsharp,
+      description: "C#"
     },
     {
       id: 3,
-      img: meteor,
-      para: ""
+      img: DiMeteorfull,
+      description: "Meteor"
     },
     {
       id: 4,
-      img: react,
-      para: ""
+      img: DiReact,
+      description: "React"
     },
     {
       id: 5,
-      img: unity,
-      para:
-        "",
+      img: DiUnitySmall,
+      description: "Unity"
     },
     {
       id: 6,
-      img: mongodb,
-      para: ""
+      img: DiMongodb,
+      description: "Mongodb"
     },
     {
       id: 7,
-      img: html,
-      para: ""
+      img: DiHtml5,
+      description: "html5"
     },
     {
       id: 8,
-      img: css,
-      para: ""
+      img: DiCss3,
+      description: "Css"
     },
+    {
+      id: 9,
+      img: DiPhotoshop,
+      description: "Photoshop"
+    },
+    {
+      id: 10,
+      img: DiWordpress,
+      description: "WordPress"
+    },
+    {
+      id: 11,
+      img: DiNodejs,
+      description: "NodeJs"
+    }
   ],
 
   // End Skills Section --------------------------

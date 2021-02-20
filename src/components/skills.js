@@ -1,5 +1,7 @@
 import React from "react"
 import data from "../yourdata"
+import Fade from "react-reveal/Fade"
+import { withPrefix } from "gatsby";
 
 const Skills = () => {
   return (
@@ -9,7 +11,11 @@ const Skills = () => {
           <h1>Tech Stack</h1>
           <div className="skills-grid">
             {data.skills.map(skill => (
-                <img src={skill.img} style={{maxHeight: 200, maxWidth: 200}} alt="css"></img>
+                // <img src={skill.img} style={{maxHeight: 200, maxWidth: 200}} alt="css"></img>
+                <div>
+                <skill.img style={{height:100, width:100}}/>
+                <p style={{textAlign: "center"}}>{skill.description}</p>
+                </div>
             ))}
           </div>
         </div>
