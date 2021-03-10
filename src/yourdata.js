@@ -15,7 +15,7 @@ import { SiCsharp } from "@react-icons/all-files/si/SiCsharp";
 import { DiJavascript1 } from "@react-icons/all-files/di/DiJavascript1";
 import { DiPhotoshop } from "@react-icons/all-files/di/DiPhotoshop";
 import { DiWordpress } from "@react-icons/all-files/di/DiWordpress";
-
+import { DiPython } from "@react-icons/all-files/di/DiPython";
 import { DiNodejs } from "@react-icons/all-files/di/DiNodejs";
 
 
@@ -214,6 +214,11 @@ export default {
       id: 11,
       img: DiNodejs,
       description: "NodeJs"
+    },
+    {
+      id: 12,
+      img: DiPython,
+      description: "Python"
     }
   ],
 
