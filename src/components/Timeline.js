@@ -32,6 +32,9 @@ const Timeline = () => {
                         <p>
                         Handled shopping mall event’s interactive game implementation.
                         </p>
+                        <p>
+                        (Unity, C#, Mirror Networking, Websocket)
+                        </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
@@ -45,7 +48,7 @@ const Timeline = () => {
                         <h4 className="vertical-timeline-element-subtitle">NextChymia Consulting HK Limited</h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Develop in-house and open-source software (mainly javascript, react.js, meteor, mongodb)
+                        Develop in-house and open-source software (mainly javascript, react.js, meteor, mongodb)
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
