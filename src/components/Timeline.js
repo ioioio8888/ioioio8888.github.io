@@ -19,6 +19,24 @@ const Timeline = () => {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "#1f1f1f", color: "#fff" }}
                         contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
+                        date="2021 - Present"
+                        iconStyle={{ background: "#1f1f1f", color: "#fff" }}
+                        icon={<WorkIcon />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Game Developer</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Asia Motion E-Sports Limited</h4>
+                        <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
+                        <p>
+                        Developed multiplayer motion tracked game, which allows player to interact with physical inputs (e.g. kayak machine) to controls the in-game movement.
+                        </p>
+                        <p>
+                        Handled shopping mall event’s interactive game implementation.
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: "#1f1f1f", color: "#fff" }}
+                        contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
                         date="2019 - 2020"
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<WorkIcon />}
@@ -27,7 +45,7 @@ const Timeline = () => {
                         <h4 className="vertical-timeline-element-subtitle">NextChymia Consulting HK Limited</h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Developed in-house and open-source software.
+                        Develop in-house and open-source software (mainly javascript, react.js, meteor, mongodb)
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
