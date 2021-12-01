@@ -27,13 +27,13 @@ const Timeline = () => {
                         <h4 className="vertical-timeline-element-subtitle">Asia Motion E-Sports Limited</h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Developed multiplayer motion tracked game, which allows player to interact with physical inputs (e.g. kayak machine) to controls the in-game movement.
+                        Developed multiplayer, motion input games, which allows player to interact with the game with their motions. (cycling, basketball, football, racing)
                         </p>
                         <p>
-                        Handled shopping mall event’s interactive game implementation.
+                        Developed Hong Kong TOurism Board's virtual bicyle racing game.
                         </p>
                         <p>
-                        (Unity, C#, Mirror Networking, Websocket)
+                        (Unity, C#, multiplayer networking, Websocket)
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement

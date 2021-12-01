@@ -33,7 +33,6 @@ import assassin from "./images/assassin.jpg"
 import basketball from "./images/basketball.jpg"
 import cycling from "./images/cycling.jpg"
 import racing from "./images/racing.jpg"
-import HKTB from "./images/HKTB.jpg"
 
 
 // import CSharp from "./images/CSharp.png" 
