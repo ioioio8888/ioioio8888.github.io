@@ -29,7 +29,12 @@ import howlongistheline from "./images/howlongistheline.png"
 import ninja from "./images/ninja.jpg"
 import narau from "./images/narau.jpg"
 import assassin from "./images/assassin.jpg"
-import BomBomBaRocketGo from "./images/bombomba.jpg"
+
+import basketball from "./images/basketball.jpg"
+import cycling from "./images/cycling.jpg"
+import racing from "./images/racing.jpg"
+import HKTB from "./images/HKTB.jpg"
+
 
 // import CSharp from "./images/CSharp.png" 
 // import javascript from "./images/javascript.png"
@@ -69,26 +74,36 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "2boxesthx", //Project Title - Add Your Project Title Here
+      title: "horse-racing game", //Project Title - Add Your Project Title Here
       para:
-        "2boxesthx is a website which allow peoples to trade/exchange materials like masks during the covid-19 situation. Build with react and openstreetmap.", // Add Your Service Type Here
+        "A multi-player horse racing game, players can compete with each other to get the first place", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: twoboxesthx,
+      imageSrc: racing,
             //Project URL - Add Your Project Url Here
       url: "",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "howlongistheline", //Project Title - Add Your Project Title Here
+      title: "cycling game", //Project Title - Add Your Project Title Here
       para:
-      "An open-source website aims to help people know and update the line status of the shops during the COVID quarantine, Build with meteor-react, in C4 protocol, Thousands of active users",
+        "A cycling game which allows players to ride on a real bicycle with dynamic resistance according to the slope in-game.",
       //Project Image - Add Your Project Image Here
-      imageSrc: howlongistheline,
+      imageSrc: cycling,
+       //Project URL - Add Your Project Url Here
+      url: "",
+    },    
+    {
+      id: 3, //DO NOT CHANGE THIS (Please)😅
+      title: "basketball/football game", //Project Title - Add Your Project Title Here
+      para:
+        "A basketball & football game which player to pass & shoot on the sensor wall.",
+      //Project Image - Add Your Project Image Here
+      imageSrc: basketball,
        //Project URL - Add Your Project Url Here
       url: "",
     },
     {
-      id: 3, //DO NOT CHANGE THIS (Please)😅
+      id: 4, //DO NOT CHANGE THIS (Please)😅
       title: "BomBomBaRocketGo!", //Project Title - Add Your Project Title Here
       para:
         "A mobile game made with Unity engine which has been upload to the Google play store. A Unlimited Scroll Game",      //Project Image - Add Your Project Image Here
@@ -97,7 +112,7 @@ export default {
       url: "https://youtu.be/veV7BjT0RVo",
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
+      id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "Untitled ninja game", //Project Title - Add Your Project Title Here
       para:
         "Single player game made with Unity engine, which user can cooperate with the player themselves in the past.", // Add Your Service Type Here
@@ -108,7 +123,7 @@ export default {
       url: "https://youtu.be/hgOSPy_iYDU",
     },
     {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
+      id: 6, //DO NOT CHANGE THIS (Please)😅
       title: "Untitled assassin game", //Project Title - Add Your Project Title Here
       para:
         "A multi-player game made with Unity engine, user has to hide in the crowd and eliminate other suspicious player and complete tasks. Uses NAT punch through, mirror networking",      //Project Image - Add Your Project Image Here
@@ -118,7 +133,7 @@ export default {
       url: "https://youtu.be/hN1HctkIERI",
     },
     {
-      id: 6, //DO NOT CHANGE THIS (Please)😅
+      id: 7, //DO NOT CHANGE THIS (Please)😅
       title: "Narau - MMORPG gimmick simulator", //Project Title - Add Your Project Title Here
       para:
         "A multi-player tools, which allows user to draw gimmicks on the map and replay it according to the timeline.", // Add Your Service Type Here
