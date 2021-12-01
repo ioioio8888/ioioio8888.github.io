@@ -29,7 +29,7 @@ import howlongistheline from "./images/howlongistheline.png"
 import ninja from "./images/ninja.jpg"
 import narau from "./images/narau.jpg"
 import assassin from "./images/assassin.jpg"
-
+import BomBomBaRocketGo from "./images/bombomba.jpg"
 import basketball from "./images/basketball.jpg"
 import cycling from "./images/cycling.jpg"
 import racing from "./images/racing.jpg"
