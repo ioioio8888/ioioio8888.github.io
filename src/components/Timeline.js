@@ -19,7 +19,40 @@ const Timeline = () => {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "#1f1f1f", color: "#fff" }}
                         contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2021 - Present"
+                        date="2022 - Present"
+                        iconStyle={{ background: "#1f1f1f", color: "#fff" }}
+                        icon={<WorkIcon />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Unity Engineer</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Polkafantasy</h4>
+                        <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
+                        <p>
+                        Developed in-house blockchain related game. 
+                        </p>
+                        <p>
+                        (Unity, Moralis ,C#)
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: "#1f1f1f", color: "#fff" }}
+                        contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
+                        date="2022"
+                        iconStyle={{ background: "#1f1f1f", color: "#fff" }}
+                        icon={<WorkIcon />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Chainlink Spring 2022 Hackathon</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Winner in Moralis - Metaverse builder prize</h4>
+                        <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
+                        <p>
+                        Shoot ball is a online multiplayer soccer game which allows 2-6 player to compete and bet by using their coins as enterance fee. A portion will be taken from the smart contract as service fee. The winner of the game will share the pool of prize(all enterance fee - service fee).
+                        </p>
+                    </VerticalTimelineElement> 
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: "#1f1f1f", color: "#fff" }}
+                        contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
+                        date="2021 - 2022"
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<WorkIcon />}
                     >
