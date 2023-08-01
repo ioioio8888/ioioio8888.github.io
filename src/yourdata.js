@@ -33,6 +33,9 @@ import BomBomBaRocketGo from "./images/bombomba.jpg"
 import basketball from "./images/basketball.jpg"
 import cycling from "./images/cycling.jpg"
 import racing from "./images/racing.jpg"
+import shootball from "./images/shootball.png"
+import mini1 from "./images/mini1.png"
+import mini2 from "./images/mini2.jpeg"
 
 
 // import CSharp from "./images/CSharp.png" 
@@ -73,9 +76,39 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
+      title: "Shootball", //Project Title - Add Your Project Title Here
+      para:
+        "A multi-player football game, players choose different characters with different ability to beat others", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: shootball,
+            //Project URL - Add Your Project Url Here
+      url: "https://www.youtube.com/watch?v=x4vnCwmO4-I",
+    },
+    {
+      id: 1, //DO NOT CHANGE THIS (Please)😅
+      title: "The Secret Dungeon", //Project Title - Add Your Project Title Here
+      para:
+        "A solo/multi-player free falling mini game, player need to survive while keep falling", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: mini2,
+            //Project URL - Add Your Project Url Here
+      url: "https://the-secret-dungeon.polkafantasy.com/",
+    },
+    {
+      id: 1, //DO NOT CHANGE THIS (Please)😅
+      title: "Mana Rush", //Project Title - Add Your Project Title Here
+      para:
+        "A mini game which require player to jump and attack to avoid the obstacles", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: mini1,
+            //Project URL - Add Your Project Url Here
+      url: "https://mana-rush.polkafantasy.com/WebGL.wasm.unityweb",
+    },
+    {
+      id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "horse-racing game", //Project Title - Add Your Project Title Here
       para:
-        "A multi-player horse racing game, players can compete with each other to get the first place", // Add Your Service Type Here
+        "A multi-player horse racing VR game, players need to ride on a physical horse and put on VR to compete with other players", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: racing,
             //Project URL - Add Your Project Url Here
@@ -112,36 +145,36 @@ export default {
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Untitled ninja game", //Project Title - Add Your Project Title Here
+      title: "Ninja puzzle", //Project Title - Add Your Project Title Here
       para:
         "Single player game made with Unity engine, which user can cooperate with the player themselves in the past.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       ninja,
         //Project URL - Add Your Project Url Here
-      url: "https://youtu.be/hgOSPy_iYDU",
+      url: "https://www.youtube.com/watch?v=p03uLFPtUss",
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Untitled assassin game", //Project Title - Add Your Project Title Here
+      title: "Assassin", //Project Title - Add Your Project Title Here
       para:
         "A multi-player game made with Unity engine, user has to hide in the crowd and eliminate other suspicious player and complete tasks. Uses NAT punch through, mirror networking",      //Project Image - Add Your Project Image Here
       imageSrc:
       assassin,
       //Project URL - Add Your Project Url Here
       url: "https://youtu.be/hN1HctkIERI",
-    },
-    {
-      id: 7, //DO NOT CHANGE THIS (Please)😅
-      title: "Narau - MMORPG gimmick simulator", //Project Title - Add Your Project Title Here
-      para:
-        "A multi-player tools, which allows user to draw gimmicks on the map and replay it according to the timeline.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-      narau,
-      //Project URL - Add Your Project Url Here
-      url: "https://www.youtube.com/watch?v=BPkWy3znKOg&feature=youtu.be",
-    },
+    }
+    // {
+    //   id: 7, //DO NOT CHANGE THIS (Please)😅
+    //   title: "Narau - MMORPG gimmick simulator", //Project Title - Add Your Project Title Here
+    //   para:
+    //     "A multi-player tools, which allows user to draw gimmicks on the map and replay it according to the timeline.", // Add Your Service Type Here
+    //   //Project Image - Add Your Project Image Here
+    //   imageSrc:
+    //   narau,
+    //   //Project URL - Add Your Project Url Here
+    //   url: "https://www.youtube.com/watch?v=BPkWy3znKOg&feature=youtu.be",
+    // },
 
     /*
     If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)

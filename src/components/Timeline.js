@@ -19,7 +19,25 @@ const Timeline = () => {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "#1f1f1f", color: "#fff" }}
                         contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2022 - Present"
+                        date="2022 - 2023"
+                        iconStyle={{ background: "#1f1f1f", color: "#fff" }}
+                        icon={<WorkIcon />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Unity Developer</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Air concept limited</h4>
+                        <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
+                        <p>
+                        Developed a large scale multiplayer mobile game. 
+                        </p>
+                        <p>
+                        (Unity, C#)
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: "#1f1f1f", color: "#fff" }}
+                        contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
+                        date="2022 - 2023"
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<WorkIcon />}
                     >
@@ -27,7 +45,7 @@ const Timeline = () => {
                         <h4 className="vertical-timeline-element-subtitle">Polkafantasy</h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Developed in-house blockchain related game. 
+                        Developed in-house blockchain related game, mini games 
                         </p>
                         <p>
                         (Unity, Moralis ,C#)
