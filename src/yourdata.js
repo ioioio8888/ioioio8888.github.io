@@ -117,7 +117,7 @@ export default {
     },
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "horse-racing game", //Project Title - Add Your Project Title Here
+      title: "E-Horse", //Project Title - Add Your Project Title Here
       para:
         "A multi-player horse racing VR game, players need to ride on a physical horse and put on VR to compete with other players", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -127,7 +127,7 @@ export default {
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "cycling game", //Project Title - Add Your Project Title Here
+      title: "E-Cycling", //Project Title - Add Your Project Title Here
       para:
         "A cycling game which allows players to ride on a real bicycle with dynamic resistance according to the slope in-game.",
       //Project Image - Add Your Project Image Here
@@ -137,7 +137,7 @@ export default {
     },    
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "basketball/football game", //Project Title - Add Your Project Title Here
+      title: "E-Basketball/E-football", //Project Title - Add Your Project Title Here
       para:
         "A basketball & football game which player to pass & shoot on the sensor wall.",
       //Project Image - Add Your Project Image Here
