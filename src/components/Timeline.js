@@ -19,7 +19,7 @@ const Timeline = () => {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "#1f1f1f", color: "#fff" }}
                         contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2022 - 2023"
+                        date="2023 - Current"
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<WorkIcon />}
                     >

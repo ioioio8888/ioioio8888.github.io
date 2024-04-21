@@ -36,6 +36,7 @@ import racing from "./images/racing.jpg"
 import shootball from "./images/shootball.png"
 import mini1 from "./images/mini1.png"
 import mini2 from "./images/mini2.jpeg"
+import fwen from "./images/fwen.jpeg"
 
 
 // import CSharp from "./images/CSharp.png" 
@@ -59,9 +60,9 @@ export default {
     //Line 1 For Header
     "Louis Lui",
     //Line 2 For Header
-    "Professional Unity Game Developer",
+    "Game Developer",
     //Line 3 For Header
-    "Game Passionate",
+    "Web3 lover",
   ],
   //   Header Paragraph
   headerParagraph:
@@ -76,13 +77,23 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
+      title: "FWEN Metaverse", //Project Title - Add Your Project Title Here
+      para:
+        "IOS/Android multiplayer metaverse game, a world for players to social and play different games. including but not only a 3v3 shooting game.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: fwen,
+            //Project URL - Add Your Project Url Here
+      url: "https://twitter.com/fwenclub/status/1676184874640875521",
+    },
+    {
+      id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "Shootball", //Project Title - Add Your Project Title Here
       para:
-        "A multi-player football game, players choose different characters with different ability to beat others", // Add Your Service Type Here
+        "A hackathon award winning project that completed in a few days. multi-player football game, players choose different characters with different ability to beat others", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: shootball,
             //Project URL - Add Your Project Url Here
-      url: "https://www.youtube.com/watch?v=x4vnCwmO4-I",
+      url: "https://devpost.com/software/shoot-ball",
     },
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
