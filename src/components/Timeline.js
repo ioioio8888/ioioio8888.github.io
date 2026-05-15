@@ -4,7 +4,6 @@ import React from "react"
 // import data from "../yourdata"
 import Fade from "react-reveal/Fade"
 import WorkIcon from "@material-ui/icons/Work";
-import SchoolIcon from "@material-ui/icons/School";
 
 const Timeline = () => {
     return (
@@ -19,79 +18,100 @@ const Timeline = () => {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "#1f1f1f", color: "#fff" }}
                         contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2023 - Current"
+                        date="May 2025 - Present"
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<WorkIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">Unity Developer</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Air concept limited</h4>
+                        <h3 className="vertical-timeline-element-title">Game Developer</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Cruelman Studio</h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Developed a large scale multiplayer mobile game. 
+                        Phantom Blade Zero (AAA): Developing an action RPG for PS5/PC using Unreal Engine 5.
                         </p>
                         <p>
-                        (Unity, C#)
+                        Unpublished AAA Project: Contributing to core mechanics and systems design for a large-scale title.
+                        </p>
+                        <p>
+                        Implementing enemy AI and combat-related systems in Unreal Engine.
+                        </p>
+                        <p>
+                        Building UI frameworks using Common UI.
+                        </p>
+                        <p>
+                        Optimizing performance for cross-platform delivery (PC and PS5).
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "#1f1f1f", color: "#fff" }}
                         contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2022 - 2023"
+                        date="April 2023 - May 2025"
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<WorkIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Unity Engineer</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Polkafantasy</h4>
+                        <h4 className="vertical-timeline-element-subtitle">Air Concepts</h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Developed in-house blockchain related game, mini games 
+                        Interactive Brand Experiences: Built interactive installations for brands like Lancome and Shiseido using Motion Capture, RFID, LiDAR, and projection mapping.
                         </p>
                         <p>
-                        (Unity, Moralis ,C#)
+                        Educational AI Platforms: Developed R'Odyssey AI with speech recognition/synthesis and a virtual museum sandbox for art generation.
                         </p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        contentStyle={{ background: "#1f1f1f", color: "#fff" }}
-                        contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2022"
-                        iconStyle={{ background: "#1f1f1f", color: "#fff" }}
-                        icon={<WorkIcon />}
-                    >
-                        <h3 className="vertical-timeline-element-title">Chainlink Spring 2022 Hackathon</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Winner in Moralis - Metaverse builder prize</h4>
-                        <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Shoot ball is a online multiplayer soccer game which allows 2-6 player to compete and bet by using their coins as enterance fee. A portion will be taken from the smart contract as service fee. The winner of the game will share the pool of prize(all enterance fee - service fee).
+                        Innovative Tech: Built a VTuber news reporting system using Pose Estimation and Hand Tracking.
+                        </p>
+                        <p>
+                        Ganarova: Designed an AI-integrated indoor playground with 4D projection battle zones (LiDAR) and multi-tablet multiplayer connectivity (WebSockets).
+                        </p>
+                        <p>
+                        FWEN Metaverse: Spearheaded launch of a cross-platform (iOS/Android) multiplayer metaverse using Mirror networking.
                         </p>
                     </VerticalTimelineElement> 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "#1f1f1f", color: "#fff" }}
                         contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2021 - 2022"
+                        date="Feb 2022 - March 2023"
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<WorkIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">Game Developer</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Asia Motion E-Sports Limited</h4>
+                        <h3 className="vertical-timeline-element-title">Unity Engineer</h3>
+                        <h4 className="vertical-timeline-element-subtitle">PolkaFantasy</h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Developed multiplayer, motion input games, which allows player to interact with the game with their motions. (cycling, basketball, football, racing)
+                        Led a small, multinational team in designing and developing blockchain-based web games.
                         </p>
                         <p>
-                        Developed Hong Kong TOurism Board's virtual bicyle racing game.
+                        Integrated Moralis SDK for wallet connection and NFT implementation (WebGL).
                         </p>
                         <p>
-                        (Unity, C#, multiplayer networking, Websocket)
+                        Collaborated with Japanese animation studios to implement high-fidelity character animations.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "#1f1f1f", color: "#fff" }}
                         contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2019 - 2020"
+                        date="April 2021 - Feb 2022"
+                        iconStyle={{ background: "#1f1f1f", color: "#fff" }}
+                        icon={<WorkIcon />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Game Engineer</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Asia Motion E-sports Limited</h4>
+                        <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
+                        <p>
+                        Developed a suite of in-house VR sports titles (Kayak, Basketball, Football, etc.) using OpenXR.
+                        </p>
+                        <p>
+                        Engineered a virtual cycling racing game for the Hong Kong Tourism Board, focusing on networking and real-time interaction.
+                        </p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: "#1f1f1f", color: "#fff" }}
+                        contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
+                        date="May 2019 - Dec 2020"
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<WorkIcon />}
                     >
@@ -99,14 +119,14 @@ const Timeline = () => {
                         <h4 className="vertical-timeline-element-subtitle">NextChymia Consulting HK Limited</h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Develop in-house and open-source software (mainly javascript, react.js, meteor, mongodb)
+                        Maintained UNIX server infrastructure and developed in-house/open-source software using React.js, Meteor, and MongoDB.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "#1f1f1f", color: "#fff" }}
                         contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2019 - 2019"
+                        date="Jan 2019 - May 2019"
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<WorkIcon />}
                     >
@@ -114,35 +134,23 @@ const Timeline = () => {
                         <h4 className="vertical-timeline-element-subtitle">Emurgo HK Limited</h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Participated in blockchain accerlator program. developed in-house and open-source software.
+                        Managed enterprise-scale UNIX systems and contributed to the development of Cardano monitoring infrastructure.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "#1f1f1f", color: "#fff" }}
                         contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2017 - 2019"
+                        date="July 2017 - Jan 2019"
                         iconStyle={{ background: "#1f1f1f", color: "#fff" }}
                         icon={<WorkIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">Infrastructure Specialist</h3>
-                        <h4 className="vertical-timeline-element-subtitle">IBM China/Hong Kong Limited </h4>
+                        <h3 className="vertical-timeline-element-title">IT Specialist</h3>
+                        <h4 className="vertical-timeline-element-subtitle">IBM China/Hong Kong Limited</h4>
                         <h5 className="vertical-timeline-element-subtitle">Hong Kong</h5>
                         <p>
-                        Set up and manage unix system(AIX, RHEL) in enterprise scale projects.
+                        Implemented enterprise-scale infrastructure designs and managed complex UNIX environments (AIX, RHEL).
                         </p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        contentStyle={{ background: "#1f1f1f", color: "#fff" }}
-                        contentArrowStyle={{ borderRight: "7px solid  #1f1f1f" }}
-                        date="2013 - 2017"
-                        iconStyle={{ background: "#1f1f1f", color: "#fff" }}
-                        icon={<SchoolIcon />}
-                    >
-                        <h3 className="vertical-timeline-element-subtitle">The Chinese University of Hong Kong</h3>
-                        <p className="vertical-timeline-element-title">Information Engineering - Bachelor's degree</p>
-                        <p className="vertical-timeline-element-subtitle">Computer Science - Minor</p>
                     </VerticalTimelineElement>
                     </VerticalTimeline>
                 </div>

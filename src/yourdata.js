@@ -6,11 +6,11 @@
 // import designIcon from "./images/design.svg"
 // import codeIcon from "./images/code.svg"
 import { DiUnitySmall } from "@react-icons/all-files/di/DiUnitySmall";
-import { DiMeteorfull } from "@react-icons/all-files/di/DiMeteorfull";
 import { DiMongodb } from "@react-icons/all-files/di/DiMongodb";
 import { DiCss3 } from "@react-icons/all-files/di/DiCss3";
 import { DiHtml5 } from "@react-icons/all-files/di/DiHtml5";
 import { DiReact } from "@react-icons/all-files/di/DiReact";
+import { SiUnrealengine } from "@react-icons/all-files/si/SiUnrealengine";
 import { SiCsharp } from "@react-icons/all-files/si/SiCsharp";
 import { DiJavascript1 } from "@react-icons/all-files/di/DiJavascript1";
 import { DiPhotoshop } from "@react-icons/all-files/di/DiPhotoshop";
@@ -37,6 +37,7 @@ import shootball from "./images/shootball.png"
 import mini1 from "./images/mini1.png"
 import mini2 from "./images/mini2.jpeg"
 import fwen from "./images/fwen.jpeg"
+import BicycleFest from "./images/BicycleFest.jpg"
 
 
 // import CSharp from "./images/CSharp.png" 
@@ -62,7 +63,7 @@ export default {
     //Line 2 For Header
     "Game Developer",
     //Line 3 For Header
-    "Web3 lover",
+    "Work Hard Play Hard",
   ],
   //   Header Paragraph
   headerParagraph:
@@ -134,9 +135,19 @@ export default {
       imageSrc: cycling,
        //Project URL - Add Your Project Url Here
       url: "",
-    },    
+    },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
+      title: "E-BicycleFestival", //Project Title - Add Your Project Title Here
+      para:
+        "A Hong Kong Tourism Board virtual cycling experience: a free 26km HKZM Bridge route with realistic slope resistance, boost zones, and live ranking.",
+      //Project Image - Add Your Project Image Here
+      imageSrc: BicycleFest,
+       //Project URL - Add Your Project Url Here
+      url: "",
+    },
+    {
+      id: 4, //DO NOT CHANGE THIS (Please)😅
       title: "E-Basketball/E-football", //Project Title - Add Your Project Title Here
       para:
         "A basketball & football game which player to pass & shoot on the sensor wall.",
@@ -146,7 +157,7 @@ export default {
       url: "",
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
+      id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "BomBomBaRocketGo!", //Project Title - Add Your Project Title Here
       para:
         "A mobile game made with Unity engine which has been upload to the Google play store. A Unlimited Scroll Game",      //Project Image - Add Your Project Image Here
@@ -155,7 +166,7 @@ export default {
       url: "https://youtu.be/veV7BjT0RVo",
     },
     {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
+      id: 6, //DO NOT CHANGE THIS (Please)😅
       title: "Ninja puzzle", //Project Title - Add Your Project Title Here
       para:
         "Single player game made with Unity engine, which user can cooperate with the player themselves in the past.", // Add Your Service Type Here
@@ -166,7 +177,7 @@ export default {
       url: "https://www.youtube.com/watch?v=p03uLFPtUss",
     },
     {
-      id: 6, //DO NOT CHANGE THIS (Please)😅
+      id: 7, //DO NOT CHANGE THIS (Please)😅
       title: "Assassin", //Project Title - Add Your Project Title Here
       para:
         "A multi-player game made with Unity engine, user has to hide in the crowd and eliminate other suspicious player and complete tasks. Uses NAT punch through, mirror networking",      //Project Image - Add Your Project Image Here
@@ -203,11 +214,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Graduated from CUHK with the Major in Information Engineering. Worked at IBM China/Hong Kong Limited as a IT specialist and participated in various kind of projects. Currently served as a Unity developer.",
+    "I am an experienced game developer with both AAA and interactive project experience.",
   aboutParaTwo:
-    "I made some personal projects during covid-19 quarantine. It is happy to make meaningful contributions to the society. For example, 2boxesthx is a website which allow peoples to trade/exchange materials like masks. Howlongistheline.org is another webpage which helps people to determine the length of the line in different shop during the shutdown.",
+    "I work with Unreal Engine and Unity, and I enjoy turning ideas into engaging games that players can truly enjoy.",
   aboutParaThree:
-    "I am passionate in gaming industry. I loved to create prototypes and experiments on different new ideas.",
+    "I am always learning, collaborating, and improving to deliver high-quality experiences and bring positive energy to every project.",
   aboutImage:
     // "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
     aboutme,
@@ -220,28 +231,28 @@ export default {
   skills: [
     {
       id: 1,
+      img: DiUnitySmall,
+      description: "Unity"
+    },
+    {
+      id: 2,
+      img: SiUnrealengine,
+      description: "Unreal Engine"
+    },
+    {
+      id: 3,
       img: DiJavascript1,
       description: "javascript"
     },
     {
-      id: 2,
+      id: 4,
       img: SiCsharp,
       description: "C#"
     },
     {
-      id: 3,
-      img: DiMeteorfull,
-      description: "Meteor"
-    },
-    {
-      id: 4,
+      id: 5,
       img: DiReact,
       description: "React"
-    },
-    {
-      id: 5,
-      img: DiUnitySmall,
-      description: "Unity"
     },
     {
       id: 6,
